@@ -5,6 +5,12 @@ on:
     tags:
       - 'v*'
   workflow_dispatch:
+    inputs:
+      pre-release:
+        description: 'Mark as pre-release'
+        required: false
+        type: boolean
+        default: false
 
 jobs:
   build:
@@ -52,4 +58,5 @@ jobs:
         with:
           files: app/build/outputs/apk/release/*.apk
           generate_release_notes: true
+          prerelease: ${{ inputs.pre-release || false }}
 
