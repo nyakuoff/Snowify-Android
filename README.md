@@ -12,7 +12,7 @@ The Android port of Snowify — a music player that streams audio from YouTube M
 </p>
 
 > [!WARNING]
-> The app is still constantly being worked on and may contain a few bugs or experimental features, use at your own discretion.
+> The app is still in Beta and may contain a few bugs or experimental features, use at your own discretion.
 
 ## Features
 
